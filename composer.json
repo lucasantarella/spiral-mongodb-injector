@@ -1,0 +1,23 @@
+{
+    "name": "lucasantarella/spiral-mongodb-injector",
+    "description": "Spiral Framework MongoDB Database Injector",
+    "type": "library",
+    "require": {
+        "php": ">=7.2",
+        "mongodb/mongodb": "^1.6",
+        "ext-mongodb": "^1.7",
+        "spiral/config": "^1.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luca Santarella",
+            "email": "luca.santarella@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MongoDBInjector\\": "src/"
+        }
+    }
+}
